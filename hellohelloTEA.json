@@ -1,7 +1,17 @@
-program hello_hello.tea;
-
-function hello:
-    input r0 as u32.public;
-    input r1 as u32.private;
-    add r0 r1 into r2;
-    output r2 as u32.private;
+{
+  "name": "hello-doge",
+  "version": "1.0.2",
+  "description": "doge says hello world",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/owenjames/hello-worlds.git",
+    "directory": "hellos/hello-doge"
+  },
+  "main": "index.js",
+  "author": "justowen",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cowsay": "1.5.0",
